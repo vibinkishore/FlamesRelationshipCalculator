@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Flames Relationship Calculator</string>
+    <string name="app_title">Flames Calculator</string>
+    <string name="your_name">Your Name</string>
+    <string name="partner_name">Partner Name</string>
+    <string name="proceed_button">Find Relationship</string>
+    <string name="clear_data">Clear Data</string>
+    <string name="footer_text">With ❤️ By Vibin Kishore</string>
+
+    <string name="result_f">Friend</string>
+    <string name="result_l">Lover</string>
+    <string name="result_a">Affection</string>
+    <string name="result_m">Marriage</string>
+    <string name="result_e">Enemy</string>
+    <string name="result_s">Sibling</string>
+    <string name="error">Error</string>
+
+    <string name="desc_f">A friend is someone who understands your past, believes in your future, and accepts you just the way you are.</string>
+    <string name="desc_l">You know you are in love when you cannot fall asleep because reality is finally better than your dreams.</string>
+    <string name="desc_a">Never regret anything you have done with a sincere affection; nothing is lost that is born of the heart.</string>
+    <string name="desc_m">Marriage isnt a noun; its a verb. It isnt something you get. Its something you do. Its the way you love your partner every day.
+</string>
+    <string name="desc_e">A wise man gets more use from his enemies than a fool from his friends. So make sure you make the most of them.</string>
+    <string name="desc_s">It was wonderful to grow up with so many siblings. We were all just a year or two apart, and we were always so supportive of each other.</string>
+    <string name="rel_loader">Relationship Advice is being Loaded...</string>
+    <string name="rel2_loader">Relatonship: Loading...</string>
+
+</resources>

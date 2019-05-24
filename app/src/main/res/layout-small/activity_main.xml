@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:padding="1dp"
+        android:text="@string/app_title"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/amita" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:indeterminate="true"
+        android:visibility="visible"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/rounded_whitebox"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/app_disp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:id="@+id/yourName"
+            android:padding="1dp"
+            android:inputType="text"
+            android:background="@drawable/roundoutline_background"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="@string/your_name"
+            android:layout_marginLeft="5dp">
+
+        </EditText>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:id="@+id/partnerName"
+            android:padding="1dp"
+            android:background="@drawable/roundoutline_background"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            android:hint="@string/partner_name"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+        </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="@string/proceed_button"
+            android:id="@+id/calcDetails"
+            android:textAllCaps="true"
+            android:layout_margin="2dp"
+            android:background="@drawable/roundbutton"
+            android:textStyle="bold"
+            android:textSize="5dp"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/resetDetails"
+            android:text="@string/clear_data"
+            android:textAllCaps="true"
+            android:layout_margin="2dp"
+            android:background="@drawable/rounded_whitebox"
+            android:textStyle="bold"
+            android:textSize="5sp"
+            android:textColor="#2196f3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/footer_text"
+            android:textAlignment="center"
+            android:id="@+id/aboutDev"/>
+
+    </LinearLayout>
+
+</LinearLayout>
